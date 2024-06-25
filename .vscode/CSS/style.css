@@ -1,0 +1,57 @@
+
+p,.blue{
+    color: blue;
+}
+#title{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+a[target="_blank"]{
+    color: aqua;
+}
+div p {
+    color: red;
+}
+
+.box > p {
+    color: red;
+}
+h1~h2{
+    color: red;
+}
+p::before {
+    content: "<before>";
+    color:coral;
+}
+p::after {
+    content: "<after>";
+}
+a:link{
+    color:orange
+}
+a:visited{
+    color: green;
+}
+p:hover{
+    color:red;
+}
+button:active{
+    color: red;
+}
+input:focus{
+    color:red;
+}
+input:checked +label {
+    color: green;
+}
+input:disabled,
+button:disabled{
+    background-color: #ccc;
+}
+input:enabled,
+button:enabled{
+    background-color:darkcyan;
+}
